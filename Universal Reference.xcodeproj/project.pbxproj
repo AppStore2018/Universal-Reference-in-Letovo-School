@@ -17,6 +17,7 @@
 		69B8F9422258D1DA00640650 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8F9412258D1DA00640650 /* Item.swift */; };
 		69B8F9442258D2B200640650 /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8F9432258D2B200640650 /* ItemType.swift */; };
 		69B8F9472258DDE000640650 /* ItemListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8F9462258DDE000640650 /* ItemListTableViewController.swift */; };
+		D52E41E1226B4E4F00D7B443 /* iTems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E41E0226B4E4F00D7B443 /* iTems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		69B8F9412258D1DA00640650 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		69B8F9432258D2B200640650 /* ItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
 		69B8F9462258DDE000640650 /* ItemListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTableViewController.swift; sourceTree = "<group>"; };
+		D52E41E0226B4E4F00D7B443 /* iTems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				69B8F9412258D1DA00640650 /* Item.swift */,
 				69B8F9432258D2B200640650 /* ItemType.swift */,
+				D52E41E0226B4E4F00D7B443 /* iTems.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52E41E1226B4E4F00D7B443 /* iTems.swift in Sources */,
 				69B8F9422258D1DA00640650 /* Item.swift in Sources */,
 				69B8F9442258D2B200640650 /* ItemType.swift in Sources */,
 				69B8F9472258DDE000640650 /* ItemListTableViewController.swift in Sources */,
@@ -336,7 +340,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.learnSwift.Universal-Reference";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -355,7 +359,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.learnSwift.Universal-Reference";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

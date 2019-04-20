@@ -1,3 +1,4 @@
+
 //
 //  Item.swift
 //  Universal Reference
@@ -14,7 +15,7 @@ struct Item {
     static func loadSample() -> [Item] {
         return [
             Item(data: .image(UIImage(named: "winter")!)),
-            Item(data: .text("Однажды зимой...")),
+            Item(data: .text("Однажды в студённую, зимнюю пору, я из лесу вышёл, был сильный мороз")),
             Item(data: .list(name: "Зима", indexes: [-2, -1]))
         ]
     }
